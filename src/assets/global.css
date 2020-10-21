@@ -1,0 +1,30 @@
+@font-face {
+  font-family: fahkwang;
+  src: url(./Fahkwang-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "方正正纤黑简体";
+  src: url("./方正正纤黑简体.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --color-gold: #d9cb9e;
+  --color-black: #1e1e20;
+  --color-white: #fff;
+}
+
+body {
+  background: url(./black_paper.png) var(--color-black) repeat top left;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    background-image: url(./black_paper_@2X.png);
+    background-size: 200px 200px;
+  }
+}
