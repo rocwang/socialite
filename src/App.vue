@@ -19,5 +19,12 @@ export default {
 .root {
   color: var(--color-white);
   font-family: fahkwang, "方正正纤黑简体", sans-serif;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow: auto;
+}
+
+.root > * {
+  scroll-snap-align: start;
 }
 </style>
