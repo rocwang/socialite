@@ -5,11 +5,7 @@
     </h1>
 
     <a href="#">
-      <img
-        src="https://via.placeholder.com/100"
-        alt="二维码"
-        :class="$style.qrcode"
-      />
+      <QRCode :class="$style.qrcode" />
       <p :class="$style.text">请扫描二维码进群</p>
       <p :class="$style.text">诚邀您的莅临</p>
     </a>
@@ -17,9 +13,11 @@
 </template>
 
 <script>
+import QRCode from "@/components/QRCode";
+
 export default {
   name: "Cover",
-  props: {}
+  components: { QRCode }
 };
 </script>
 
@@ -50,7 +48,8 @@ export default {
 
 .qrcode {
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.5rem;
+  width: 150px;
 }
 
 .text {
