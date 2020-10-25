@@ -1,6 +1,6 @@
 <template>
   <main :class="$style.root">
-    <p :class="$style.slogan"><strong>Youth, Fashion, Wealth</strong></p>
+    <p :class="$style.slogan"><strong>Young, Fashionable, Wealthy</strong></p>
 
     <p :class="$style.text">目标群体：上海本地名媛</p>
     <p :class="$style.text">入会条件：资产证明 / 基础入会费</p>
