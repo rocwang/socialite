@@ -1,6 +1,6 @@
 @font-face {
   font-family: fahkwang;
-  src: url(./Fahkwang-Regular.ttf) format("truetype");
+  src: url(./Fahkwang-Regular.woff2) format("woff2");
   font-style: normal;
   font-weight: normal;
 }

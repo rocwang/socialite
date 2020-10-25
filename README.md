@@ -6,8 +6,8 @@
 
 * Chinese font: [方正正纤黑简体](http://www.foundertype.com/index.php/FontInfo/index/id/194.html),
   [个人非商业授权](https://www.foundertype.com/index.php/About/powerPer.html)
-* English font: [Fahkwang](https://fonts.google.com/specimen/Fahkwang),
-  [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+* English font: [Fah Kwang](https://github.com/cadsondemak/Fah-Kwang),
+  [Open Font License](https://github.com/cadsondemak/Fah-Kwang/blob/master/OFL.txt)
 * Background tile: [Black Paper](https://www.toptal.com/designers/subtlepatterns/black-paper/),
   [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 * The rose SVG: [Pixabay](https://pixabay.com/vectors/rose-flower-drawing-red-rose-1511925/),
