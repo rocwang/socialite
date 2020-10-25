@@ -22,8 +22,8 @@
 
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
-  from = "https://cp77.netlify.com/*"
-  to = "https://cp77.kiwiberry.nz/:splat"
+  from = "https://socialite2020.netlify.app/*"
+  to = "https://socialite.kiwiberry.nz/:splat"
   status = 301
   force = true
 
