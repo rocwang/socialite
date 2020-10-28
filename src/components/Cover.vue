@@ -1,7 +1,8 @@
 <template>
   <header :class="$style.root">
     <h1 :class="$style.title">
-      邀请函 <small :class="$style.subtitle">上海名媛3群</small>
+      邀请函
+      <small :class="$style.subtitle">上海名媛3群</small>
     </h1>
 
     <a href="#">
