@@ -1,8 +1,6 @@
 <template>
-  <div :class="$style.root">
-    <Cover />
-    <Details />
-  </div>
+  <Cover />
+  <Details />
 </template>
 
 <script>
@@ -15,16 +13,18 @@ export default {
 };
 </script>
 
-<style module>
-.root {
-  color: var(--color-white);
-  font-family: fahkwang, "方正正纤黑简体", sans-serif;
+<style>
+:root,
+#app {
   scroll-snap-type: y mandatory;
-  height: 100vh;
-  overflow: auto;
 }
 
-.root > * {
+#app {
+  color: var(--color-white);
+  font-family: fahkwang, "方正正纤黑简体", sans-serif;
+}
+
+#app > * {
   scroll-snap-align: start;
 }
 </style>
