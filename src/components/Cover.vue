@@ -5,7 +5,7 @@
       <small :class="$style.subtitle">上海名媛3群</small>
     </h1>
 
-    <a href="#">
+    <a href="https://space.bilibili.com/700294461">
       <QRCode :class="$style.qrcode" />
       <p :class="$style.text">请扫描二维码进群</p>
       <p :class="$style.text">诚邀您的莅临</p>
