@@ -61,4 +61,10 @@ export default {
     background-size: 400px 400px;
   }
 }
+
+noscript {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
 </style>
