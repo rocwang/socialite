@@ -26,8 +26,7 @@ export default {
 <style module>
 .root {
   display: grid;
-  justify-content: center;
-  align-content: center;
+  place-content: center;
   text-align: center;
   min-height: 100vh;
   background: url("../assets/rose.svg") no-repeat top -1vmin left -1vmin;
