@@ -1,15 +1,12 @@
 module.exports = {
   chainWebpack: webpackConfig => {
-    webpackConfig.plugin("html").tap(args => {
+    webpackConfig.plugin("preload").tap(args => {
       const [options] = args;
-
-      Object.assign(options, {
-        inject: "head",
-        scriptLoading: "defer"
-      });
+      options.include = "allAssets";
 
       return args;
     });
   },
+
   productionSourceMap: false
 };
