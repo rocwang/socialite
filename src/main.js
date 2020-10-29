@@ -3,4 +3,4 @@ import App from "./App.vue";
 
 const app = createApp(App);
 
-document.addEventListener("DOMContentLoaded", () => app.mount("#app"));
+document.addEventListener("DOMContentLoaded", () => app.mount(document.body));

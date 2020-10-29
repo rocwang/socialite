@@ -41,30 +41,24 @@ export default {
 }
 
 :root,
-#app {
+body {
   scroll-snap-type: y mandatory;
 }
 
-#app > * {
+body > * {
   scroll-snap-align: start;
 }
 
-#app {
+body {
   background: url(./assets/black_paper.png) var(--color-black) repeat top left;
   color: var(--color-white);
   font-family: fahkwang, "方正正纤黑简体", sans-serif;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #app {
+  body {
     background-image: url(./assets/black_paper_@2X.png);
     background-size: 400px 400px;
   }
-}
-
-noscript {
-  display: grid;
-  place-content: center;
-  min-height: 100vh;
 }
 </style>

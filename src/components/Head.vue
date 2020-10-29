@@ -17,8 +17,7 @@ export default {
   setup() {
     return {
       favicon,
-      serverRendered:
-        document.getElementById("app").dataset.serverRendered === "true"
+      serverRendered: document.body.dataset.serverRendered === "true"
     };
   }
 };
