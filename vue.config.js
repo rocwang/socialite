@@ -17,11 +17,29 @@ module.exports = {
 
         return "script";
       };
-      options.fileBlacklist = [...options.fileBlacklist, /black_paper.*\.png/];
+      options.fileBlacklist.push(/black_paper.*\.png/);
 
       return args;
     });
   },
 
-  productionSourceMap: false
+  productionSourceMap: false,
+
+  pluginOptions: {
+    prerenderSpa: {
+      registry: undefined,
+      renderRoutes: ["/"],
+      useRenderEvent: false,
+      headless: true,
+      onlyProduction: true,
+      postProcess: route => {
+        // Defer scripts and tell Vue it's been server rendered to trigger hydration
+        route.html = route.html
+          .replace(/<script (.*?)>/g, "<script $1 defer>")
+          .replace('id="app"', 'id="app" data-server-rendered="true"');
+
+        return route;
+      }
+    }
+  }
 };
