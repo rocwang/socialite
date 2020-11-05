@@ -13,7 +13,7 @@
   by [Cadson Demak](https://cadsondemak.com/home/),
   [Open Font License](https://github.com/cadsondemak/Fah-Kwang/blob/master/OFL.txt)
 * Background tile:
-  [Glamorous](https://twitter.com/steveschoger),
+  [Glamorous](https://www.heropatterns.com/),
   [by Steve Schoger](https://twitter.com/steveschoger),
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
