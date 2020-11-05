@@ -29,8 +29,6 @@ export default {
   place-content: center;
   text-align: center;
   min-height: 100vh;
-  background: url("../assets/rose.svg") no-repeat top -1vmin left -1vmin;
-  background-size: 50vmin auto;
 }
 
 .title {

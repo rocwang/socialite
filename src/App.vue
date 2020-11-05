@@ -67,15 +67,9 @@ body > * {
 }
 
 body {
-  background: url(./assets/black_paper.png) var(--color-black) repeat top left;
+  background: url(./assets/glamorous.svg), var(--color-black);
+  background-size: 180px 180px;
   color: var(--color-white);
   font-family: fahkwang, "FZZhengHeiS-EL-GB", sans-serif;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  body {
-    background-image: url(./assets/black_paper_@2X.png);
-    background-size: 400px 400px;
-  }
 }
 </style>

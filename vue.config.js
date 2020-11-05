@@ -17,7 +17,6 @@ module.exports = {
 
         return "script";
       };
-      options.fileBlacklist.push(/black_paper.*\.png/);
 
       return args;
     });

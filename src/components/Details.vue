@@ -43,8 +43,6 @@ export default {
   place-content: center;
   padding: 30px;
   min-height: 100vh;
-  background: url("../assets/rose.svg") no-repeat bottom -1vmin right -1vmin;
-  background-size: 50vmin auto;
   grid-template-columns: minmax(260px, 640px);
 }
 

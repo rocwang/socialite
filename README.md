@@ -2,16 +2,20 @@
 
 网页重构“名媛”群邀请函。
 
-## Credit
+## Credits
 
-* Chinese font: [方正正纤黑简体](http://www.foundertype.com/index.php/FontInfo/index/id/194.html),
+* Chinese font:
+  [方正正纤黑简体](http://www.foundertype.com/index.php/FontInfo/index/id/194.html),
+  by [Founder Type](http://www.foundertype.com/)
   [个人非商业授权](https://www.foundertype.com/index.php/About/powerPer.html)
-* English font: [Fah Kwang](https://github.com/cadsondemak/Fah-Kwang),
+* English font:
+  [Fah Kwang](https://github.com/cadsondemak/Fah-Kwang),
+  by [Cadson Demak](https://cadsondemak.com/home/),
   [Open Font License](https://github.com/cadsondemak/Fah-Kwang/blob/master/OFL.txt)
-* Background tile: [Black Paper](https://www.toptal.com/designers/subtlepatterns/black-paper/),
-  [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
-* The rose SVG: [Pixabay](https://pixabay.com/vectors/rose-flower-drawing-red-rose-1511925/),
-  [Pixabay License](https://pixabay.com/service/license/)
+* Background tile:
+  [Glamorous](https://twitter.com/steveschoger),
+  [by Steve Schoger](https://twitter.com/steveschoger),
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Project setup
 ```
