@@ -41,9 +41,9 @@ module.exports = {
         // route.html = route.html
         //   .replace(/<script (.*?)>/g, "<script $1 defer>")
         //   .replace(/<body (.*?)>/, '<body $1 data-server-rendered="true">');
-        route.html = route.html
-          .replace(/<script (.*?)\/script>/g, "")
-          .replace(/<link (.*?)as="script">/g, "");
+        route.html = route.html.replace(/<script [^<]*?><\/script>/g, "");
+
+        route.html = route.html.replace(/<link [^<]*? as="script">/g, "");
 
         return route;
       }
