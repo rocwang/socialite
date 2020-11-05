@@ -32,10 +32,18 @@ module.exports = {
       headless: true,
       onlyProduction: true,
       postProcess: route => {
-        // Defer scripts and tell Vue it's been server rendered to trigger hydration
+        // As there is no dynamic logic once pre-rendered at the moment,
+        // we can remove all script tags the preload tags for script.
+        //
+        // If scripts are required, then we can defer scripts and tell Vue it's
+        // been server rendered to trigger hydration as below:
+        //
+        // route.html = route.html
+        //   .replace(/<script (.*?)>/g, "<script $1 defer>")
+        //   .replace(/<body (.*?)>/, '<body $1 data-server-rendered="true">');
         route.html = route.html
-          .replace(/<script (.*?)>/g, "<script $1 defer>")
-          .replace(/<body (.*?)>/, '<body $1 data-server-rendered="true">');
+          .replace(/<script (.*?)\/script>/g, "")
+          .replace(/<link (.*?)as="script">/g, "");
 
         return route;
       }
