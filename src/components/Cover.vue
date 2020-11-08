@@ -22,7 +22,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style module>
 .root {
   display: grid;
@@ -42,12 +41,6 @@ export default {
   display: block;
   font-size: 3rem;
   margin-top: 2rem;
-}
-
-.qrcode {
-  display: block;
-  margin: 0 auto 0.5rem;
-  width: 150px;
 }
 
 .text {
